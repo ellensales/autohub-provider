@@ -138,7 +138,7 @@ export default function Dashboard() {
                 </section>
 
                 <section className="services-section">
-                    <h2>Your Services</h2>
+                    <h2>Our Services</h2>
                     <div className="services-grid">
                     {services.map((s, i) => (
                         <div key={i} className="service-card">
