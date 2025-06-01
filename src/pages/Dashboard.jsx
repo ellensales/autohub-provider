@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../styles/Dashboard.css';
+import ReactLogo from '../assets/logo_transparente.png';
+
 
 export default function Dashboard() {
     const { company } = useParams();
@@ -77,10 +79,7 @@ export default function Dashboard() {
         <div>
             <div className="top-bar">
                 <div className="logo-area">
-                        <img 
-                            src="/src/assets/logo_transparente.png" 
-                            alt="AutoHub Logo" 
-                            className="autohub-logo" />
+                        <img src={ReactLogo} alt="AutoHub Logo" className="autohub-logo" />
                 </div>
                 <div className="company-info">
                     <div className="company-text">
