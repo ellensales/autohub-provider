@@ -3,6 +3,7 @@ import { BrowserRouter, useParams } from 'react-router-dom';
 import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import '../styles/ServiceManagement.css';
+import ReactLogo from '../assets/logo_transparente.png';
 
 function getDaysInMonth(year, month) {
     const date = new Date(year, month, 1);
