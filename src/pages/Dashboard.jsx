@@ -77,12 +77,10 @@ export default function Dashboard() {
         <div>
             <div className="top-bar">
                 <div className="logo-area">
-                    <Link to="/">
                         <img 
                             src="/src/assets/logo_transparente.png" 
                             alt="AutoHub Logo" 
                             className="autohub-logo" />
-                    </Link>
                 </div>
                 <div className="company-info">
                     <div className="company-text">
